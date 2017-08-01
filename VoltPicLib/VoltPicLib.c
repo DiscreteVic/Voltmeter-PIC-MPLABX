@@ -163,6 +163,7 @@ void disp7WriteDig(int digit, int position) {
 }
 void disp7WriteNum(float  num_f) {
 	comma = 1;
+	num_f = 2 * num_f;
 	int mul = 1;
 	int num_i = 0;
 	// Transformation of float number, choosing decimals
